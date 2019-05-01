@@ -6,7 +6,6 @@
     echo "Failed to connect: " . mysqli_connect_errno();
   }
 
-  $query = mysqli_query($con, "INSERT INTO test VALUES ('', 'John')" );
 ?>
 
 <!DOCTYPE html>
